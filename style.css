@@ -23,12 +23,6 @@ body {
     max-width: 600px;
 }
 
-/* Logo */
-.logo {
-    width: 100px;
-    margin: 20px auto;
-}
-
 /* Title */
 h1 {
     font-size: 2rem;
@@ -66,10 +60,6 @@ h1 {
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-}
-
-.search-box button img {
-    width: 20px;
 }
 
 /* Suggestions */
