@@ -1,0 +1,88 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background & Layout */
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    margin: 20px auto;
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #1f2937;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.search-box button {
+    background: #3b82f6;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-box button img {
+    width: 20px;
+}
+
+/* Suggestions */
+.suggestions {
+    text-align: left;
+    background: #2d3748;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    opacity: 0.7;
+}
